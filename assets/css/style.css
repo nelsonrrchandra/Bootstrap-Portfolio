@@ -1,0 +1,133 @@
+body 	{
+		background-image: url("../images/gray_jean.png");
+		}
+
+a 		{
+		color:#777777;
+		}
+
+h1 		{
+		/*layout*/
+		position: absolute;
+		height: 50px;
+		z-index:1;
+		padding-top: 15px;
+		width: 300px;
+		left: 250px;
+		/*formatting*/
+		background-color: #4aaaa5;
+		font-family: 'Georgia', Times, Times New Roman, serif;
+		color: white;
+		font-size: 25px;
+		text-align: center;
+		font-weight: bold;
+		}
+
+h2 		{
+		font-family: 'Georgia', Times, Times New Roman, serif;
+		color:#4aaaa5;
+		font-size: 25px;
+		padding-top:15px;
+		padding-left: 20px;
+		font-weight: bold;
+		}
+
+.MainContents{
+		/*layout*/
+		margin: 50px 00px 200px 50px;
+		/*formatting*/
+		color:#777777;
+		}
+
+hr 		{
+		width: 85%;
+		}
+
+.AboutSection {
+		/*layout*/
+		overflow: auto;
+		/*formatting*/
+		background-color: #ffffff;
+		border-style:solid;
+		border-width: 1px;
+		border-color: #cccccc;
+		}
+
+.PortfolioBox{
+		position: relative;
+		float: left;
+		width: 290px;
+		height: 140px;
+		margin: 10px 0px 10px 20px;
+		}
+
+.ProfilePic {
+		width: 200px;
+		height: 100px;
+		padding: 15px 10px 0px 30px;
+		}
+
+.PortfolioPic {
+		width: 100%;
+		height: 100%;
+		}
+
+.PortfolioCard{
+		/*layout*/
+		position: absolute;
+		width: 100%;
+		height: 27%;
+		top: 65%;
+		/*formatting*/
+		background-color: #4aaaa5;
+		}
+
+.PortfolioText{
+		position: relative;
+		color: white;
+		text-align: center;
+		padding: 10px;
+		}
+
+.ContactIcons {
+
+		/*formatting*/
+		background-color: #ffffff;
+		border-style:solid;
+		border-width: 1px;
+		border-color: #cccccc;
+		}
+
+.Footer {
+		/*layout*/
+		position: fixed;
+		bottom: 0px;
+		height: 75px;
+		width: 100%;
+		/*formatting*/
+		background-color: #666666;
+		border-style:solid;
+		border-width: 2px;
+		border-color: #4aaaa5;
+		color: white;
+		font-size: 80%;
+		}
+
+.Padding{
+		margin: auto;
+		width: 90%;
+		padding: 15px;
+		}
+
+.FormText{
+		margin: auto;
+		padding: 15px;
+		}
+
+.SubmitButton{
+		
+		}
+
+.Center {
+		text-align: center;
+		}
